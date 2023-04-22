@@ -1,0 +1,54 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.container-fluid {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.main-heading {
+  margin-bottom: 30px;
+}
+
+.main-heading h1 {
+  font-size: 40px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  color: #000;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.thead-dark {
+  color: #fff;
+  background-color: #212529;
+}
+
+th,
+td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+th {
+  text-align: inherit;
+  background-color: #6c757d;
+  color: #fff;
+  border-color: #dee2e6;
+}
+.table-hover tbody tr:hover td {
+  background-color: #24e4137a;
+}
